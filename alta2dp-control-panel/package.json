@@ -1,0 +1,24 @@
+{
+  "name": "alta2dp-control-panel",
+  "version": "1.0.0",
+  "description": "Custom control panel GUI for the Alternative A2DP Bluetooth driver (registry-based codec configuration)",
+  "main": "out/main/index.js",
+  "author": "custom-gui",
+  "license": "MIT",
+  "scripts": {
+    "dev": "electron-vite dev",
+    "build": "electron-vite build",
+    "start": "electron-vite preview",
+    "test:backend": "node tests/backend.test.js"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "electron": "^31.3.0",
+    "electron-vite": "^2.3.0",
+    "vite": "^5.4.0"
+  }
+}
